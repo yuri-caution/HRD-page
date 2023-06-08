@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+header a { 
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: blue;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    height: 50px;
+    background-color: black;
+    text-align: left;
+    line-height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li:hover a {
+    text-decoration: underline;
+}
+
+#login {
+    margin-left: 50px;
+    margin-top: 6px;
+}
+
+fieldset label {
+    color: #fff;
+}
+
+.right {
+    color:  yellow;
+}
+
+.right a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    background-color: black;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+section {
+    height: 100%;
+    margin: 0 auto;
+}
+
+section h1 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+section img {
+    object-fit: cover;
+    width: 1000px;
+    display: block;
+    margin: 40px auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+#tab1 {
+    width: 40%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+#tab2 {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#tab2 tr:first-child {
+    background-color: #eee;
+    padding: 6px 12px;
+}
+
+
+
+body h1 {
+    text-align: center;
+}
+
+#in1 {
+    height: 30px;
+    width: 30%;
+    text-align: center;
+}
+ 
+#in2 {
+    height: 30px;
+    width: 90%;
+}
+
+#in3 {
+    height: 30px;
+    width: 15%;
+    text-align: center;
+}
+#in4 {
+    height: 30px;
+    width: 30%;
+    text-align: center;
+}
+#btn {
+    background-color: #333;
+    color: #fff;
+    width: 20%;
+    cursor: pointer;
+}
+
+tr td:first-child {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#tab3 {
+    width: 50%;
+    margin: 0 auto;
+    height: 30%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#select {
+    width: 100%;
+}
+
+select {
+    width: 200px;
+    padding: .8em .5em;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+#tab5 {
+    margin-top: 20px;
+}
+
+
+#tab5 #top {
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+}
+
+#tab5 #total {
+    text-align: left;
+}
+
+#title {
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#view_box {
+    font-weight: normal;
+}
